@@ -1,0 +1,54 @@
+*{
+            padding: 0;
+            margin: 0;
+        }
+        .nav-bar{
+            height: 92px;
+            max-width: 1600px;
+            background-color: #1A0B2E;
+            border-bottom: 1px solid #412567;
+        }
+        /* hero section  */
+        .hero-section{
+
+            height: 760px;
+            width: 100%;
+            background-image: url("./assets/hero-bg.png");
+        }
+
+
+        /* about section css */
+
+        .about-section{
+            width: 100%;
+            height: 646px;
+            background-color: #1A0B2E;
+        }
+
+        /* chose section css */
+
+        .chose-section{
+
+            width: 100%;
+            height: 1121PX;
+            background-color: #230E3D;
+        }
+
+        /* Featured section css */
+
+        .featured-section{
+            width: 100%;
+            height: 1276PX;
+            background-color: #1A0B2E;
+        }
+
+        /* footer section  */
+
+        .footer-section{
+            height: 412px;
+            width: 100%;
+            background-image: url("./assets/footer-bg.png");
+            
+        }
+
+        
