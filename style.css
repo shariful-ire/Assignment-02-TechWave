@@ -131,10 +131,12 @@
         height: 350px;
         width: 350px;
         background-image: url("./assets/hero-circle.png");
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: 40px;
        }
 
        .new-icon{
@@ -153,6 +155,94 @@
         box-shadow: 0px 0px 8px green;
         font-weight: 900;
        }
+
+
+         .hero-section-text{
+        text-align: center;
+        color: white;
+        
+    }
+    .hero-section-text h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .hero-section-text p{
+        font-weight: lighter;
+        color: rgba(209, 196, 196, 0.733);
+        padding-bottom: 24px;
+    }
+    .hero-section-btn{
+        width: 360px;
+        height: 45px;
+        display: flex;
+        gap: 8px;
+        
+    }
+
+    .hero-btn-1{
+        height: 45px;
+        width: 200px;
+        border-radius: 30px;
+        background-image: linear-gradient(to right, hwb(56 15% 6%),rgba(223, 17, 178, 0.797),rgb(157, 3, 247));
+       
+    }
+    .hero-btn-1 button{
+        display: flex;
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        padding: 10px;
+        font-size: 18px;
+        font-weight:500;
+        background-color: transparent;
+        border: none;
+    }
+
+    .hero-btn-1 button img{
+        padding: 2px;
+        border: 1px solid white;
+        border-radius: 50%;
+    }
+
+    .hero-btn-2{
+        
+        margin: auto;
+        height: 43px;
+        width: 150px;
+        
+        border: 2px solid rgb(9, 192, 6);
+        font-size: 18px;
+        border-radius: 30px;
+    }
+    .hero-btn-2 img{
+        height: 20px;
+        width: 20px;
+    }
+    .hero-btn-2 button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        height: 43px;
+        width: 150px;
+        font-size: 18px;
+        color: rgb(9, 192, 6);
+        background: transparent;
+        border:none;
+        border-radius: 30px;
+
+        
+    }
+
+    .hero-btn-1:hover{
+        box-shadow: 0px 0px 10px rgb(5, 5, 8);
+    }
+
+
+    .hero-btn-2:hover{
+        box-shadow: 0px 0px 10px yellowgreen;
+    }
+
         
 
 
