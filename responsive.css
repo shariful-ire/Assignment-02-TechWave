@@ -1,0 +1,51 @@
+.hamberg-icon{
+    display: none;
+}
+
+/* .nav-bar{
+    display: none;
+} */
+.hero-section{
+    display: none;
+}
+
+.about-section{
+    display: none;
+}
+.chose-section{
+    display: none;
+}
+
+.featured-section{
+    display: none;
+}
+
+.footer-section{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .nav-item, .nav-button{
+        display: none;
+    }
+    .hamberg-icon{
+        display: flex;
+    }
+    .nav-bar{
+        box-sizing: border-box;
+        padding: 16px 20px;
+        display: flex;
+        gap: 250px;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 576px;
+        height: 60px;
+        border-bottom: 1px solid #412567;
+    }
+
+    
+
+
+   
+
+}
