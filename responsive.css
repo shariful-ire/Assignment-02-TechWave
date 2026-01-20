@@ -5,6 +5,10 @@
   display: none;
 }
 
+.mobile-vedio-card{
+  display: none;
+}
+
 /* .nav-bar{
     display: none;
 } */
@@ -19,9 +23,9 @@
     display: none;
 } */
 
-.featured-section{
+/* .featured-section{
     display: none;
-}
+} */
 /* 
 .footer-section{
     display: none;
@@ -241,6 +245,9 @@
                 }
             
 
+            /*  responsive feature section  */
+
+
   /*  work for the footer div  */
 
 
@@ -293,7 +300,9 @@
         width: 20px;
         height: 20px;
     }
-
+.featured-section{
+  display: none;
+}
 
     .footer-massage {
         font-size: 16px;
