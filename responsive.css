@@ -1,4 +1,4 @@
-.hamberg-icon{
+/* .hamberg-icon{
     display: none;
 }
 .mobile-chose{
@@ -7,7 +7,7 @@
 
 .mobile-vedio-card{
   display: none;
-}
+} */
 
 /* .nav-bar{
     display: none;
@@ -26,26 +26,30 @@
 /* .featured-section{
     display: none;
 } */
-/* 
-.footer-section{
+
+/* .footer-section{
     display: none;
 } */
 
 @media screen and (max-width: 576px) {
-    .nav-item, .nav-button{
+    .nav-item, .nav-button {
         display: none;
     }
+    
     .hamberg-icon{
         display: flex;
+        background-color: rgb(1, 138, 249);
+        padding: 10px;
+        border-radius: 7px;
     }
     .nav-bar{
         box-sizing: border-box;
         padding: 16px 20px;
         display: flex;
-        gap: 250px;
+        
         align-items: center;
         justify-content: space-between;
-        max-width: 576px;
+        max-width:auto;
         width: 100%;
         height: 60px;
         border-bottom: 1px solid #412567;
@@ -212,8 +216,8 @@
                     padding: 50px 30px 50px 30px ;
                     display: flex;
                     flex-direction: column;
-                    height: 1500px;
-                    width: 576px;
+                    height: auto;
+                    width: 90%;
                     gap: 24px;
                     background-color: #230E3D;
 
@@ -225,7 +229,7 @@
                 }
 
                 #chose-div{
-                    width: 500px;
+                    width: 100%;
                     height: auto;
                     display: flex;
                     flex-direction: column;
@@ -252,9 +256,10 @@
 
 
     .footer-section {
-        width: 576px;
-        height: 300px;
+        width: auto;
+        height: auto;
         margin: 0 auto;
+        margin-bottom: 0px;
 
         background-image: url("./assets/footer-bg.png");
         background-repeat: no-repeat;
@@ -266,9 +271,10 @@
     }
 
     .footer-content {
+
         width: 100%;
         height: 100%;
-        padding: 24px 0;
+        padding: 50px 0px 0px 0px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly; 
@@ -312,12 +318,3 @@
     }
 }
 
-
-
-
-
-
-
-
-  
-    
